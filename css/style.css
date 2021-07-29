@@ -1,0 +1,78 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.bg-top-section
+{
+    background: #264653;
+}
+
+.top-section-small-para
+{
+    color:white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.top-section-header
+{
+    color:white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.top-section-big-para
+{
+    color:white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn-buy-now
+{
+    background: #E76F51;
+    width: 168px;
+    height: 44px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+}
+
+.orange-text
+{
+    color: #E76F51;
+
+}
+
+.img-grayscale
+{
+    filter:grayscale(100%);
+}
+
+
+.card-img-top {
+    flex-grow: 1;
+    object-fit:contain;
+}
+.card-body{
+    flex-grow:0;
+}
+
+
+.card-border
+{
+    background: #FFFFFF;
+    /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); */
+    border-radius: 5px;
+    padding: 40px 35px;
+}
+
+.img-border
+{
+    border-radius: 20px;
+}
