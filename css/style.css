@@ -4,10 +4,14 @@
     padding:0;
 }
 
+/* font style  */
 body
 {
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* top-section  */
 
 .top-section
 {
@@ -23,6 +27,8 @@ body
 }
 
 
+
+/* font style  */
 
 .all-section-header
 {
@@ -40,13 +46,15 @@ body
     font-weight: 300;
 }
 
-
 .all-section-small-text
 {
     color: white;
     font-size: 0.80rem;
     font-weight: 300;
 }
+
+
+/* button style  */
 
 .btn-buy-now
 {
@@ -63,26 +71,35 @@ body
     
 }
 
+
+
+/* for orange color text */
+
 .orange-text
 {
     color: #E76F51;
 
 }
 
+
+/* for grayscale image  */
 .img-grayscale
 {
     filter:grayscale(100%);
 }
 
 
+
+/* client section  */
+
 .card-img-top {
     flex-grow: 1;
     object-fit:contain;
 }
+
 .card-body{
     flex-grow:0;
 }
-
 
 .card-border
 {
@@ -95,4 +112,14 @@ body
 .img-border
 {
     border-radius: 20px;
+}
+
+
+
+
+/* brand section logo style  */
+.brand-img
+{
+    width:120px;
+    height:120px;
 }
