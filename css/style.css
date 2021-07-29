@@ -4,31 +4,50 @@
     padding:0;
 }
 
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section
+{
+    height:45rem;
+    padding-top: 7rem; 
+
+
+}
+
 .bg-top-section
 {
     background: #264653;
 }
 
-.top-section-small-para
-{
-    color:white;
-    font-size: 14px;
-    font-weight: 300;
-}
 
-.top-section-header
+
+.all-section-header
 {
-    color:white;
+    /* color:white; */
     font-weight: 600;
-    font-size: 30px;
+    font-size: 2rem;
+    color: #0A0826;
+
 }
 
-.top-section-big-para
+.all-section-medium-text
 {
-    color:white;
-    font-size: 16px;
+    color: #E0E0E0;
+    font-size: 0.85rem;
     font-weight: 300;
 }
+
+
+.all-section-small-text
+{
+    color: white;
+    font-size: 0.80rem;
+    font-weight: 300;
+}
+
 .btn-buy-now
 {
     background: #E76F51;

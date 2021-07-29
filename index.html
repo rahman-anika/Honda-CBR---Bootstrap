@@ -15,76 +15,96 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+
+    <!-- custom fonts  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+
 </head>
 
 <body>
+
+    <!-- header starts  -->
+
     <header>
 
     </header>
+
+    <!-- header ends  -->
+
+    <!-- main starts  -->
 
     <main>
 
         <!-- hero section starts  -->
 
-        <section class="bg-top-section top-section container-fluid py-5">
-            <div class="row flex-xs-column flex-sm-column
+        <section class="bg-top-section top-section ">
+
+            <div class="container py-5">
+                <div class="row flex-xs-column flex-sm-column
             flex-md-row align-items-md-center justify-content-md-around mb-2">
 
 
 
-                <div class="col-sm-6 pt-3 align-self-center">
-                    <div class="mx-4">
-                        <p class="top-section-small-para">Computer-controlled digital transistorized with electronic
-                            advance</p>
-                        <h2 class="top-section-header text-nowrap">
-                            Honda CBR 300R
-                        </h2>
+                    <div class="col-12 col-sm-7 col-md-6 pt-3 align-self-center">
+                        <div class="mx-4">
+                            <p class="all-section-small-text">
+                                Computer-controlled digital transistorized with electronic
+                                advance
+                            </p>
+                            <h2 class="all-section-header text-nowrap" style="color: white;">
+                                Honda CBR 300R
+                            </h2>
 
 
-                        <p class="top-section-big-para">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor
-                            do amet sint. Velit officia
-                            consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <p class="all-section-medium-text">Amet minim mollit non deserunt ullamco est sit aliqua
+                                <br>
+                                dolor
+                                do amet sint. Velit officia
+                                consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
 
-                        <!-- <button class="btn-buy-now">
 
-                            Purchase
-                        </button> -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn-buy-now" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Purchase
+                            </button>
 
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn-buy-now" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop">
-                            Purchase
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">Welcome to our Website</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Here, you will find latest and modern design honda and exciting offers also.
-                                        Don't be late and hurry up!
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Sure</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Welcome to our Website</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Here, you will find latest and modern design honda and exciting offers also.
+                                            Don't be late and hurry up!
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Sure</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-8 col-sm-5 col-md-6 pt-5 d-flex justify-content-center align-items-center align-self-center mx-5 mx-md-0">
+                        <img class="img-fluid mw-100" src="images/header-bike.png" alt="">
                     </div>
                 </div>
 
-                <div class="col-sm-5 pt-5 align-self-center">
-                    <img class="img-fluid" src="images/header-bike.png" alt="">
-                </div>
             </div>
         </section>
 
@@ -94,8 +114,9 @@
 
         <section class="container featured-bikes my-4 py-4">
             <div class="text-center">
-                <h2 style="font-weight: 600;">Fetured Bikes 2021</h2>
-                <p> <span class="orange-text">Best bike collection</span> </p>
+                <h2 class="all-section-header">Fetured Bikes 2021</h2>
+                <p style="font-weight: 600; font-size: 0.80rem;"> <span class="orange-text">Best bike collection</span>
+                </p>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 mt-2 mx-auto">
                 <div class="col mt-5 px-4">
@@ -129,7 +150,11 @@
         <!-- client section starts  -->
 
         <section class="container client my-4 py-4">
-            <h2 class="text-center">Happy <span class="orange-text">Clients says</span> </h2>
+            <h2 class="text-center all-section-header">Happy
+                <span class="orange-text">
+                    Clients says
+                </span>
+            </h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
                 <div class="col">
                     <div class="card h-100 card-border">
@@ -137,15 +162,16 @@
                             height="149px" alt="...">
                         <div class="card-body text-center">
 
-                            <p class="card-text mb-0">Slate helps you see how <br>
+                            <p class="card-text mb-0 all-section-medium-text" style="color:#6C6C6C; font-weight: 400;">
+                                Slate helps you see how <br>
                                 many more days you need <br>
                                 to work to reach your financial <br>
                                 goal for the month and year.</p>
                             <img src="images/ratings-removebg-preview.png" class="img-fluid" width="130px" height="22px"
                                 alt="">
-                            <p class="text-primary">Regina Miles</p>
+                            <p class="text-primary all-section-small-text" style="font-weight: 600;">Regina Miles</p>
                             <p style="color:#252B42; font-weight: 600;
-                            ">Banker</p>
+                            " class="all-section-small-text">Banker</p>
 
                         </div>
 
@@ -157,15 +183,16 @@
                             height="149px" alt="...">
                         <div class="card-body text-center">
 
-                            <p class="card-text mb-0">Slate helps you see how <br>
+                            <p class="card-text mb-0 all-section-medium-text" style="color:#6C6C6C; font-weight: 400;">
+                                Slate helps you see how <br>
                                 many more days you need <br>
                                 to work to reach your financial <br>
                                 goal for the month and year.</p>
                             <img src="images/ratings-removebg-preview.png" class="img-fluid" width="130px" height="22px"
                                 alt="">
-                            <p class="text-primary">Regina Miles</p>
+                            <p class="text-primary all-section-small-text" style="font-weight: 600;">Regina Miles</p>
                             <p style="color:#252B42; font-weight: 600;
-                            ">Banker</p>
+                                " class="all-section-small-text">Banker</p>
 
                         </div>
 
@@ -173,19 +200,20 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 card-border">
-                        <img src="images/user-3.jpg" class="card-img-top shoe-img img-border" width="149px"
+                        <img src="images/user-3.png" class="card-img-top shoe-img img-border" width="149px"
                             height="149px" alt="...">
                         <div class="card-body text-center">
 
-                            <p class="card-text mb-0">Slate helps you see how <br>
+                            <p class="card-text mb-0 all-section-medium-text" style="color:#6C6C6C; font-weight: 400;">
+                                Slate helps you see how <br>
                                 many more days you need <br>
                                 to work to reach your financial <br>
                                 goal for the month and year.</p>
                             <img src="images/ratings-removebg-preview.png" class="img-fluid" width="130px" height="22px"
                                 alt="">
-                            <p class="text-primary">Regina Miles</p>
+                            <p class="text-primary all-section-small-text" style="font-weight: 600;">Regina Miles</p>
                             <p style="color:#252B42; font-weight: 600;
-                            ">Banker</p>
+                                " class="all-section-small-text">Banker</p>
 
                         </div>
 
@@ -204,7 +232,9 @@
         <section class="feature my-5 mb-5">
 
             <div class="container">
-                <h2 class="text-center mb-5">Frequently Asked <span class="orange-text">Questions</span> </h2>
+                <h2 class="text-center all-section-header mb-5">
+                    Frequently Asked <span class="orange-text">Questions</span>
+                </h2>
                 <div class="row g-2">
                     <div class="col-lg-6 d-flex align-items-center justify-content-center order-sm-first">
                         <img class="img-fluid" src="images/faq.png" alt="" width="70%" height="70%">
@@ -216,7 +246,8 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
-                                        style="font-weight: 500;">
+                                        style="font-weight: 500; font-size: 1rem; color:#383838; background-color: white;
+                                        ">
                                         What are the most important things I should
                                         know about riding a bike?
                                     </button>
@@ -224,10 +255,12 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p> Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        <p class="all-section-small-text" style="color:#7E848C; font-weight: 400;">
+                                            Safety First! Always obey the rules of the road. Obey all traffic signals,
                                             signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
                                             your bike. This will help you be a more focused and legally compliant bike
-                                            rider.</p>
+                                            rider.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +268,8 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
-                                        style="font-weight: 500;">
+                                        style="font-weight: 500; font-size: 1rem; color:#383838; background-color: white;
+                                        ">
                                         How can I tell if my helmet is old and I need a
                                         new one?
                                     </button>
@@ -243,12 +277,14 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p> If your helmet suffers any kind of impact, no matter how small, its
+                                        <p class="all-section-small-text" style="color:#7E848C; font-weight: 400;">
+                                            If your helmet suffers any kind of impact, no matter how small, its
                                             protective
                                             qualities will be compromised. You should replace your helmet before riding
                                             again. Lastly, a riding helmet should fit snug on your head. If your helmet
                                             ever
-                                            becomes too loose or too tight, it's time for a new one.</p>
+                                            becomes too loose or too tight, it's time for a new one.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -256,17 +292,20 @@
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree" style="font-weight: 500;">
+                                        aria-controls="collapseThree" style="font-weight: 500; font-size: 1rem; color:#383838; background-color: white;
+                                        ">
                                         My bike has been in storage is it safe to ride?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Of course I don't know how long it was stored, the condition when stored or
+                                        <p class="all-section-small-text" style="color:#7E848C; font-weight: 400;">
+                                            Of course I don't know how long it was stored, the condition when stored or
                                             the conditions underwhich it was stored. Still, if it was in good tune when
                                             stored and the tires will hold air, a quick lube of the chain and all pivot
-                                            points and you should be ready to ride.</p>
+                                            points and you should be ready to ride.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -274,14 +313,15 @@
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour" style="font-weight: 500;">
+                                        aria-controls="collapseFour" style="font-weight: 500; font-size: 1rem; color:#383838; background-color: white;
+                                        ">
                                         What rules should I follow when riding my bike?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>
+                                        <p class="all-section-small-text" style="color:#7E848C; font-weight: 400;">
                                             The most important rules to consider while riding a bike are- <br> <br>
 
                                             <strong> 1. Wear a Helmet:</strong> No matter what, always wear a helmet.
@@ -313,11 +353,13 @@
 
         <!-- faq section ends  -->
 
-        <!-- popular brands section starts  -->
+        <!-- popular brands bonus section starts  -->
         <section class="container popular-brands my-5">
 
-            <h2 class="text-center mb-5">Popular <span class="orange-text">Brands</span></h2>
-            <div class="">
+            <h2 class="text-center all-section-header mb-5">
+                Popular <span class="orange-text">Brands</span>
+            </h2>
+            <div>
                 <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 justify-content-sm-center g-5 mx-4">
                     <div class="col"><img src="images/Brands/honda.png" class="img-fluid mw-100" height="50%" alt="">
                     </div>
@@ -336,16 +378,17 @@
         </section>
 
 
-        <!-- popular brands section ends  -->
+        <!-- popular brands bonus section ends  -->
 
+        <!-- subscribe bonus section starts  -->
 
         <section
-            class="container subscribe d-flex flex-column flex-md-row justify-content-md-around bg-top-section align-items-center text-white py-3 mb-5 rounded-3"
+            class="container subscribe bg-top-section d-flex flex-column flex-md-row justify-content-center justify-content-md-around  align-items-center text-white py-3 px-0 mb-5 rounded-3"
             id="subscribe">
 
             <div>
-                <h1 class="text-center">LET'S KEEP IN TOUCH</h1>
-                <p class="text-center">Get updates on sales & provide your valuable feedback</p>
+                <h2 class="text-center all-section-header text-white">LET'S KEEP IN TOUCH</h2>
+                <p class="all-section-medium-text text-center">Get updates on sales & provide your valuable feedback</p>
             </div>
 
 
@@ -362,22 +405,40 @@
 
 
                 <div class="d-grid gap-2">
-                    <button class="btn-buy-now" type="button">Submit</button>
+
+
+                    <form action="https://www.google.com/" target="_blank">
+                        <button class="btn-buy-now">
+                            Submit
+                        </button>
+                    </form>
 
                 </div>
+
+
             </div>
 
         </section>
 
+
+        <!-- subscribe bonus section ends  -->
+
     </main>
 
+    <!-- main ends  -->
 
+    <!-- footer starts  -->
     <footer>
-        <p class="text-center text-white bg-top-section mb-0 py-2"><small>©2021. Honda CBR. All rights reserved.
-                Dhaka,
-                Bangladesh.</small>
+        <p class="text-center text-white bg-top-section mb-0 py-2">
+            <small>
+                &copy;2021. Honda CBR. All rights reserved.Dhaka,Bangladesh.
+            </small>
         </p>
     </footer>
+
+    <!-- footer ends  -->
+
+
     <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
